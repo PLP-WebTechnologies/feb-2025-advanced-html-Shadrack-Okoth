@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Elements and Forms</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>First item in the list</li>
+            <li>Second item in the list</li>
+            <li>Third item in the list</li>
+            <li>Fourth item in the list</li>
+            <li>Fifth item in the list</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>External Image from Pexels</h2>
+        <img src="nature.jpg" alt="Nature Landscape" width="600">
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+        <h2>Contacts Table</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Elm Street</td>
+                    <td>(555) 123-4567</td>
+                    <td>johndoe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak Avenue</td>
+                    <td>(555) 234-5678</td>
+                    <td>janesmith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Johnson</td>
+                    <td>789 Pine Road</td>
+                    <td>(555) 345-6789</td>
+                    <td>michael.j@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>101 Maple Drive</td>
+                    <td>(555) 456-7890</td>
+                    <td>emily.davis@example.com</td>
+                </tr>
+                <tr>
+                    <td>David Wilson</td>
+                    <td>202 Birch Lane</td>
+                    <td>(555) 567-8901</td>
+                    <td>david.wilson@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Yes, I want to receive newsletters</label>
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+</body>
+</html>
